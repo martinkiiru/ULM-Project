@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Examples</title>
+</head>
+<body>
+    <h2>NLP Service Example</h2>
+    <ul>
+        <li><strong>Input:</strong>
+            <pre>{
+    "text": "Hola, ¿cómo estás?"
+}</pre>
+        </li>
+        <li><strong>Output:</strong>
+            <pre>{
+    "language": "Spanish",
+    "sentiment": "Neutral"
+}</pre>
+        </li>
+    </ul>
+
+    <h2>ULM Service Example</h2>
+    <ul>
+        <li><strong>Input:</strong>
+            <pre>{
+    "prompt": "Once upon a time"
+}</pre>
+        </li>
+        <li><strong>Output:</strong>
+            <pre>{
+    "generated_text": "Once upon a time, there was a wise old owl who lived in a great oak tree."
+}</pre>
+        </li>
+    </ul>
+
+    <h2>Specific Examples of Input and Output</h2>
+    <h3>NLP Example</h3>
+    <ul>
+        <li><strong>Use Case:</strong> Detecting language in a customer service query.
+            <ul>
+                <li><strong>Input:</strong>
+                    <pre>{
+    "text": "Bonjour, je voudrais de l'aide."
+}</pre>
+                </li>
+                <li><strong>Output:</strong>
+                    <pre>{
+    "language": "French",
+    "sentiment": "Neutral"
+}</pre>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
